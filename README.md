@@ -1,4 +1,6 @@
 LiquidSimulator
 ===============
 
-A simple liquid simulator for .Net.
+A simple liquid simulator in C#.
+
+Based on code from http://grantkot.com/MPM/Liquid.html.
