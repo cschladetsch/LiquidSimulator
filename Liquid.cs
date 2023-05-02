@@ -39,11 +39,13 @@ namespace LiquidSim
                 }
             }
 
+            float ratio = (width - GsizeX) / (height - GsizeY);
+            float delta = ratio * 4;
             for (var i = 0; i < 100; i++)
             {
                 for (var j = 0; j < 100; j++)
                 {
-                    var p = new Particle(_water, i + 4, j + 4, 0.0F, 0.0F);
+                    var p = new Particle(_water, i+ delta, j + delta, 0.0F, 0.0F);
                     _particles.Add(p);
                 }
             }
