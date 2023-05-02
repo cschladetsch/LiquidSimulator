@@ -9,10 +9,6 @@ namespace LiquidSim
         public float y;
         public float u;
         public float v;
-        public float dudx;
-        public float dudy;
-        public float dvdx;
-        public float dvdy;
         public int cx;
         public int cy;
         public float[] px = new float[3];
